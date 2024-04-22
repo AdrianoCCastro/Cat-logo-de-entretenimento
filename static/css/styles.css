@@ -114,6 +114,13 @@ a, a:hover {
     color:black;
     margin-bottom: 10px;
 }
+
+.botao{
+    background-color: rgb(146, 229, 229);
+    border: #000000;
+    border-radius:4px;
+    
+}
 .btn, .btn:hover {
     width: 180px;
     height: 40px;
@@ -134,7 +141,7 @@ a, a:hover {
 }
 
 .form-description{
-    background-color: white;
+    background-color: rgb(251, 247, 247);
     padding: 20px;
     display: flex;
     flex-direction: column;

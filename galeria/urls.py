@@ -1,6 +1,7 @@
 from django.urls import path
-from galeria.views import index
+from galeria.views import index, formulario
 
-urlpatterns = [
-    path('', index)
+urlpatterns = [ 
+    path('', index, name='index'),
+    path('formulario/', formulario, name= 'formulario')
 ]
